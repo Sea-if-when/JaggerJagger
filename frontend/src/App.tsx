@@ -8,9 +8,11 @@ import {
 } from "react-router-dom";
 import { RegisterPage } from './features/auth/register';
 import { LoginPage } from './features/auth/login';
+import { LogoutPage } from './features/auth/logout';
 import { ForgotPasswordPage } from './features/auth/forgot_password';
 import { ResetPasswordPage } from './features/auth/reset_password';
 import { WebsitePage } from './features/website/website';
+import { DashboardPage } from './features/dashboard/dashboard';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
       <Switch>
         <Route path="/login">
           <LoginPage />
+        </Route>
+        <Route path="/logout">
+          <LogoutPage />
         </Route>
         <Route path="/register">
           <RegisterPage />
@@ -27,6 +32,9 @@ function App() {
         </Route>
         <Route path="/forgot">
           <ForgotPasswordPage />
+        </Route>
+        <Route path="/dashboard">
+          <DashboardPage />
         </Route>
         <Route path="/">
           <WebsitePage />

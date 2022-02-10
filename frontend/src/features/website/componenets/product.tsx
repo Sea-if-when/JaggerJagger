@@ -14,7 +14,7 @@ export function ProductComponent() {
                <a href='explore.html' className='arrow-btn block bg-indigo-100 text-indigo-500 text-sm text-sm font-body font-bold rounded py-2 px-4 ml-14 transition duration-500 hover:bg-indigo-50'>See All</a>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-               <div className="product-box bg-white flex justify-between flex-col rounded overflow-hidden transition duration-500 hover:shadow-lg"  data-aos="fade-up">
+               <div className="product-box bg-white flex justify-between flex-col rounded overflow-hidden transition duration-500 hover:shadow-lg"  >
                   <div className="product-top">
                      <div className="product-image relative rounded overflow-hidden">
                         <img className="w-full md:h-64 object-cover" src="assets/images/product/28.jpg" alt="title"/> 
@@ -43,7 +43,7 @@ export function ProductComponent() {
                      </div>
                   </div>
                </div>
-               <div className="product-box bg-white flex justify-between flex-col rounded overflow-hidden transition duration-500 hover:shadow-lg"  data-aos="fade-up">
+               <div className="product-box bg-white flex justify-between flex-col rounded overflow-hidden transition duration-500 hover:shadow-lg"  >
                   <div className="product-top">
                      <div className="product-image relative rounded overflow-hidden">
                         <img className="w-full md:h-64 object-cover" src="assets/images/product/1.gif" alt="title"/>
@@ -72,7 +72,7 @@ export function ProductComponent() {
                      </div>
                   </div>
                </div>
-               <div className="product-box bg-white flex justify-between flex-col rounded overflow-hidden transition duration-500 hover:shadow-lg"  data-aos="fade-up">
+               <div className="product-box bg-white flex justify-between flex-col rounded overflow-hidden transition duration-500 hover:shadow-lg"  >
                   <div className="product-top">
                      <div className="product-image relative rounded overflow-hidden">
                         <img className="w-full md:h-64 object-cover" src="assets/images/product/2.webp" alt="title"/>
@@ -102,7 +102,7 @@ export function ProductComponent() {
                      </div>
                   </div>
                </div>
-               <div className="product-box bg-white flex justify-between flex-col rounded overflow-hidden transition duration-500 hover:shadow-lg"  data-aos="fade-up">
+               <div className="product-box bg-white flex justify-between flex-col rounded overflow-hidden transition duration-500 hover:shadow-lg"  >
                   <div className="product-top">
                      <div className="product-image relative rounded overflow-hidden">
                         <img className="w-full md:h-64 object-cover" src="assets/images/product/3.gif" alt="title"/>

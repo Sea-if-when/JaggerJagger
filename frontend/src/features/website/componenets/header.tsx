@@ -67,13 +67,13 @@ export function HeaderComponent() {
               </li>
               <li><a className='p-4 flex items-center hover:text-indigo-500 transition duration-500' href='activity.html'> Activity </a></li>
             </ul>
-            <form className="header-newsletter hidden lg:flex items-center">
+            {/* <form className="header-newsletter hidden lg:flex items-center">
               <div className="flex flex-1 items-center xl:w-80 bg-white shadow transition duration-500 hover:shadow-lg rounded h-14 p-4 mr-6">
                 <img className="w-6 h-6 flex-shrink-0 p-1" src="assets/images/search-icon.svg" alt="title" />
                 <input className="appearance-none bg-transparent border-none w-full text-blueGray-600 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Search items" />
               </div>
 
-            </form>
+            </form> */}
             <a href='wallet.html' className='btn hidden xl:flex items-center text-white font-body font-semibold rounded h-14 p-4 transition-all duration-500 bg-gradient-to-tl from-indigo-500 via-purple-500 to-indigo-500 bg-size-200 bg-pos-0 hover:bg-pos-100' type='submit'><img className="w-4 h-4 flex-shrink-0  mr-2" src="assets/images/wallet-icon.svg" title="title" /> Connect Wallet</a>
           </div>
           <button className="bg-blueGray-50 mobile-toggle block lg:hidden">

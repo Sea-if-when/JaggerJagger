@@ -13,7 +13,7 @@ export function TopeSellerComponent() {
                     </div>
                     <a href='leaderboard.html' className='arrow-btn block bg-indigo-100 text-indigo-500 text-sm text-sm font-body font-bold rounded py-2 px-4 ml-14 transition duration-500 hover:bg-indigo-50'>See All</a>
                 </div>
-                <div className="infinite-seller-box-table seller-box-table" data-aos="fade-up">
+                <div className="infinite-seller-box-table seller-box-table" >
                     <div className="table-wrapper justify-self-auto grid grid-cols-12 gap-8 mb-8 transition duration-500 hover:shadow-sm rounded p-5">
                         <div className="flex items-center col-span-4">
                             <h2 className="flex items-center font-display text-xl text-blueGray-900 font-semibold mr-6"><img className="w-4 h-4 mr-2" src="assets/images/up-icon.svg" alt="title" /> 1 </h2>

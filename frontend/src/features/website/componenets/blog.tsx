@@ -14,7 +14,7 @@ export function BlogComponent() {
               <a href='blog.html' className='arrow-btn block bg-indigo-100 text-indigo-500 text-sm text-sm font-body font-bold rounded py-2 px-4 ml-14 transition duration-500 hover:bg-indigo-50'>See All</a>
            </div>
            <div className="blog-infinite grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
-              <div className="blog-box flex justify-between flex-col rounded transition duration-500 hover:shadow-lg" data-aos="fade-up">
+              <div className="blog-box flex justify-between flex-col rounded transition duration-500 hover:shadow-lg" >
                  <div className="content-top">
                     <div className="blog-image md:h-64 relative rounded overflow-hidden mb-6">
                        <img className="w-full md:h-64 object-cover" src="assets/images/blog/1.jpg" alt="title"/>
@@ -32,7 +32,7 @@ export function BlogComponent() {
                     <a className='readmore-btn font-body font-normal text-indigo-500 transition duration-500 hover:text-indigo-500 underline-hover' href='single.html'>Read More<img className=" inline-block w-3 ml-2 mb-1" src="assets/images/readmore-icon.svg" alt="Post Title Here"/></a>
                  </div>
               </div>
-              <div className="blog-box flex justify-between flex-col rounded transition duration-500 hover:shadow-lg" data-aos="fade-up">
+              <div className="blog-box flex justify-between flex-col rounded transition duration-500 hover:shadow-lg" >
                  <div className="content-top">
                     <div className="blog-image md:h-64 relative rounded overflow-hidden mb-6">
                        <img className="w-full md:h-64 object-cover" src="assets/images/blog/2.jpg" alt="title"/>
@@ -50,7 +50,7 @@ export function BlogComponent() {
                     <a className='readmore-btn font-body font-normal text-indigo-500 transition duration-500 hover:text-indigo-500 underline-hover' href='single.html'>Read More<img className=" inline-block w-3 ml-2 mb-1" src="assets/images/readmore-icon.svg" alt="Post Title Here"/></a>
                  </div>
               </div>
-              <div className="blog-box flex justify-between flex-col rounded transition duration-500 hover:shadow-lg" data-aos="fade-up">
+              <div className="blog-box flex justify-between flex-col rounded transition duration-500 hover:shadow-lg" >
                  <div className="content-top">
                     <div className="blog-image md:h-64 relative rounded overflow-hidden mb-6">
                        <img className="w-full md:h-64 object-cover" src="assets/images/blog/3.jpg" alt="title"/>

@@ -4,7 +4,7 @@ import { HeroComponent } from "./componenets/hero"
 import { FooterComponent } from "./componenets/footer"
 import { CategoryComponent } from './componenets/category';
 import { ProductComponent } from './componenets/product';
-import { TopeSellerComponent } from './componenets/top_seller';
+import { HowItWorksComponent } from './componenets/how_it_works';
 import { BlogComponent } from './componenets/blog';
 
 export function WebsitePage() {
@@ -15,7 +15,8 @@ export function WebsitePage() {
       <HeroComponent/>
       <CategoryComponent/>
       <ProductComponent/>
-      <TopeSellerComponent/>
+      <HowItWorksComponent/>
+
       <BlogComponent/>
       <FooterComponent/>
       
